@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Search App</title>
+</head>
+<body>
+  <h1>Image Search App</h1>
+  <div id="camera-section">
+    <video id="camera" autoplay></video>
+    <button id="capture">Take Photo</button>
+    <canvas id="canvas" style="display:none;"></canvas>
+    <img id="photo" alt="Captured image will appear here" />
+  </div>
+  <div id="results-section">
+    <h2>Results</h2>
+    <ul id="results"></ul>
+  </div>
+  <script src="./src/app.js" type="module"></script>
+</body>
+</html>
